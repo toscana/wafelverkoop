@@ -20,7 +20,7 @@ public class FoodType implements Serializable,Comparable<FoodType> {
 		super();
 	}
 
-	public FoodType(String name, float price, String color) {
+	public FoodType(String name, float price) {
 		super();
 		this.name = name;
 		this.price = price;

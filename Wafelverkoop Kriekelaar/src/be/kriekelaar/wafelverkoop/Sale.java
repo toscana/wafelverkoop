@@ -13,7 +13,16 @@ public class Sale implements Serializable,Comparable<Sale> {
 
 	private String klas;
 	private String nameStudent;
+	private String tel;
 
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
 
 	public String getNameStudent() {
 		return nameStudent;
@@ -36,17 +45,8 @@ public class Sale implements Serializable,Comparable<Sale> {
 	private Long id;
 	
 	private String comment;
-	private boolean isPayed;
-
-	public boolean isPayed() {
-		return isPayed;
-	}
-
-	public void setPayed(boolean isPayed) {
-		this.isPayed = isPayed;
-	}
-
 	
+		
 	public Sale() {
 	}
 
@@ -66,8 +66,8 @@ public class Sale implements Serializable,Comparable<Sale> {
 	}
 
 	
-	public void addFlower(Food flower) {
-		food.add(flower);
+	public void addFood(Food f) {
+		food.add(f);
 	}
 
 

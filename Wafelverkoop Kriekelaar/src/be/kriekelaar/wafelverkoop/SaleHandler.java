@@ -63,7 +63,7 @@ public class SaleHandler {
 		return "fout";
 	}
 
-	public void addFlowerType(FoodType type) {
+	public void addFoodType(FoodType type) {
 		OfyService.ofy().save().entities(type).now();
 	}
 

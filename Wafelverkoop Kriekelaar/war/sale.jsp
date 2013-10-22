@@ -134,7 +134,7 @@ select.error, textarea.error, input.error {
 			<%
 			out.print("<table><tr>");
 			List<FoodType> foodtypes = SaleHandler.getInstance().getAllFoodTypes();
-			FoodType prev = new FoodType("betstaatniet", 15);
+			
 			for (FoodType f : foodtypes) {
 				   	out.print("<tr><td>" + f.getName() + "</td>");
 				   	
@@ -155,10 +155,7 @@ select.error, textarea.error, input.error {
 		
 		
 		
-			<b>Commentaar</b>
-		</p>
-		<textarea name="comment" cols="40" rows="6"></textarea>
-
+			
 		<br /> <input name="send" class="submit" type="submit" value="Doorgaan">
 
 

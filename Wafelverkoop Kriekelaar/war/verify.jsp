@@ -105,9 +105,7 @@
   
   out.write("<tr><td></td><td><b>TOTAALSOM:</b></td> <td><b>" + df.format(totaalsom).replace(",", ".") + " € </b></td></tr>");
   out.print("</table>");
-  
-  
-  out.println("<p>" + request.getParameter("comment")+"</p>");
+
   
  
   %>
@@ -124,13 +122,16 @@
 out.print("<input type=\"hidden\" name=\"familienaamverkoper\""  + " value=\""+ request.getParameter("familienaamverkoper") +"\"" + ">");
 out.print("<input type=\"hidden\" name=\"voornaamverkoper\""  + " value=\""+ request.getParameter("voornaamverkoper") +"\"" + ">");
 out.print("<input type=\"hidden\" name=\"tel\""  + " value=\""+ request.getParameter("tel") +"\"" + ">");
-out.print("<input type=\"hidden\" name=\"comment\""  + " value=\""+ request.getParameter("comment") +"\"" + ">");
 out.print("<input type=\"hidden\" name=\"klas\""  + " value=\""+ request.getParameter("klas") +"\"" + ">");
 
 for(FoodType f:foodtypes){
 	out.print("<input type=\"hidden\" name=\""+ f.getName()+ "\" value=\"" + request.getParameter(f.getName()) + "\">");
 }
 %>
+<b>Commentaar</b>
+</p>
+<textarea name="comment" cols="40" rows="6"></textarea>
+
 <p><a href='javascript:history.go(-1)'>Terug</a></p>
 
 <input name="send" type="submit" value="Bestelling opslaan">

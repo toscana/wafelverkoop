@@ -22,8 +22,8 @@
 Klas k = new Klas("Geen","geen");
 SaleHandler.getInstance().addKlas(k);
 
-/*
-Klas k = new Klas("K0 geel (juf Elke)","K0");
+
+ k = new Klas("K0 geel (juf Elke)","K0");
 SaleHandler.getInstance().addKlas(k);
 
 k = new Klas("K1 groen (juf Layla)","K1A");
@@ -66,7 +66,7 @@ SaleHandler.getInstance().addKlas(k);
 k = new Klas("L6 (juf Leentje)","L6");
 SaleHandler.getInstance().addKlas(k);
 
-*/
+
 
 
 %>

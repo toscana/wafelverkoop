@@ -19,23 +19,23 @@
 
 <%
 FoodType t;
-t = new FoodType("Vanillewafels",5);
+t = new FoodType("Vanillewafels",5,1);
 SaleHandler.getInstance().addFoodType(t);
 
-t = new FoodType("Vanillewafels met chocolade",5);
+t = new FoodType("Vanillewafels met chocolade",5,2);
 SaleHandler.getInstance().addFoodType(t);
 
-t = new FoodType("Gedroogde vruchten tropical",4);
+t = new FoodType("Mix vruchten tropical",4,5);
 SaleHandler.getInstance().addFoodType(t);
 
-t = new FoodType("Cacaotruffels",5);
+t = new FoodType("Cacaotruffels",5,3);
 SaleHandler.getInstance().addFoodType(t);
 
 
-t = new FoodType("Studentenhaver",5);
+t = new FoodType("Studentenhaver",5,4);
 SaleHandler.getInstance().addFoodType(t);
 
-t = new FoodType("Frangipane",6);
+t = new FoodType("Frangipane",6,6);
 SaleHandler.getInstance().addFoodType(t);
 
 

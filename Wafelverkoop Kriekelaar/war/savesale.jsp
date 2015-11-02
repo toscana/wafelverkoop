@@ -38,7 +38,7 @@
 	sale.addFood(new Food(aantal,f.getPrice(),f.getName()));
   }
   
-  sale.setNameStudent(request.getParameter("familienaamverkoper") + request.getParameter("voornaamverkoper"));
+  sale.setNameStudent(request.getParameter("familienaamverkoper") + " " + request.getParameter("voornaamverkoper"));
   sale.setTel(request.getParameter("tel"));
   sale.setComment(request.getParameter("comment"));
   sale.setKlas(request.getParameter("klas"));

@@ -18,56 +18,60 @@
   <body>
 
 <%
-
+/*
 Klas k = new Klas("Geen","geen");
 SaleHandler.getInstance().addKlas(k);
 
 
- k = new Klas("K0 geel (juf Elke)","K0");
+ k = new Klas("K0 rood (juf Elke)","K0");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("K1 groen (juf Layla)","K1A");
+k = new Klas("K0/1 roos (juf Layla en juf Debby)","K0/1");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("K1/2 paars (juf Kaat en juf Cindy)","K1/2");
+k = new Klas("K1 paars (juf Kaat en juf Debby)","K1");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("K2 blauw (juf Ingrid en juf Cindy)","K2");
+k = new Klas("K2 blauw (juf Ingrid en juf Inez)","K2");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("K2/K3 roze (juf Esther en juf Elise)","K2/K3");
+k = new Klas("K2/3 groen (juf Melissa)","K2/3");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("K3 rood (juf Evi en juf Melissa)","K3");
+k = new Klas("K3 geel (juf Evi en juf Inez)","K3");
 SaleHandler.getInstance().addKlas(k);
 
 k = new Klas("L1A (meester Marc)","L1A");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("L1B (meester Wim)","L1B");
+k = new Klas("L1B (meester Wim en juf Laurien)","L1B");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("L2A (meester Leo en juf Elke)","L2");
+k = new Klas("L2A (meester Leo en juf Sarah)","L2A");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("L2B (meester Peter)","L2");
+k = new Klas("L2B (meester Peter)","L2B");
 SaleHandler.getInstance().addKlas(k);
 
 
-k = new Klas("L3 (meester Christophe)","L3");
+k = new Klas("L3 (meester Christophe en juf Laurien)","L3");
 SaleHandler.getInstance().addKlas(k);
+
+k = new Klas("L3/4 (juf Elke en juf Sarah)","L3/4");
+SaleHandler.getInstance().addKlas(k);
+
 
 k = new Klas("L4 (meester Dom)","L4");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("L5 (juf An en juf Soetkin)","L5");
+k = new Klas("L5 (juf An)","L5");
 SaleHandler.getInstance().addKlas(k);
 
-k = new Klas("L6 (juf Leentje)","L6");
+k = new Klas("L6 (juf Leentje en juf Laurien)","L6");
 SaleHandler.getInstance().addKlas(k);
 
 
-
+*/
 
 %>
 

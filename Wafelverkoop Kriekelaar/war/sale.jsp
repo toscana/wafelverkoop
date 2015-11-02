@@ -65,6 +65,15 @@ select.error, textarea.error, input.error {
 
 			out.print("<tr>");
 			out.print("<td>");
+			out.print("Voornaam verkoper:");
+			out.print("</td>");
+			out.print("<td>");
+			out.print("<input type=\"text\" name=\"voornaamverkoper\" class=\"required\">");
+			out.print("</td>");
+			out.println("</tr>");
+
+			out.print("<tr>");
+			out.print("<td>");
 			out.print("Familienaam verkoper:");
 			out.print("</td>");
 			out.print("<td>");
@@ -73,15 +82,6 @@ select.error, textarea.error, input.error {
 			out.println("</tr>");
 			
 			
-			out.print("<tr>");
-			out.print("<td>");
-			out.print("Voornaam verkoper:");
-			out.print("</td>");
-			out.print("<td>");
-			out.print("<input type=\"text\" name=\"voornaamverkoper\" class=\"required\">");
-			out.print("</td>");
-			out.println("</tr>");
-
 			out.print("<tr>");
 			out.print("<td>");
 			out.print("Telefoonnummer:");

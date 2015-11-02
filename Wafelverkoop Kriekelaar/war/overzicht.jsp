@@ -116,7 +116,7 @@ for(Klas k:klassen)
   
     
   DecimalFormat df = new DecimalFormat("0.00");
-  out.print("<p>Het totaal aan cash geld voor deze bestellingen is samen € " + df.format(totaalCash).replace(",", ".") + ".<br/>Gelieve dit bedrag door te storten op rekening: <br/>BE32 7341 3322 8802 <br/>BIC KREDBEBB <br/>van de Ouderraad De Kriekelaar met mededeling <b>Wafelverkoop 2013 klas " + klas + "</b></p>");
+  out.print("<p>Het totaal aan cash geld voor deze bestellingen is samen € " + df.format(totaalCash).replace(",", ".") + ".<br/>Gelieve dit bedrag door te storten op rekening: <br/>BE32 7341 3322 8802 <br/>BIC KREDBEBB <br/>van de Ouderraad De Kriekelaar met mededeling <b>Wafelverkoop 2015 klas " + klas + "</b></p>");
   %>
 
 
